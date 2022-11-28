@@ -4,7 +4,17 @@
     {
       
         static void Main(string[] args)
+
         {
+
+            int x = 5;
+            int y = 10;
+
+            int addIng = x += y;
+            int subBing = x -= y;
+            int mulTing = x *= y;
+            int divIng = x /= y;
+
             int a = 17;
             int b = 4;
             var div = a / b;
